@@ -1,0 +1,5 @@
+#for merging of two tuples
+t1=(1,3,"anitha","guruvelli")
+t2=(6,7,8,9)
+merge=t1+t2
+print(merge)
