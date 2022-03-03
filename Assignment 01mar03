@@ -1,0 +1,4 @@
+#for printing 10 to 1 in list comprehension
+digits = [x for x in range(10,0,-1)]
+
+print(digits)
