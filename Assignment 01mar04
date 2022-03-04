@@ -1,0 +1,12 @@
+# print duplicates from a list
+def duplicate(l):
+    n=len(l)
+    dup=[]
+    for i in range(n):
+        k = i + 1
+        for j in range(k,n):
+            if l[i] == l[j] and l[i] not in dup:
+                dup.append(l[i])
+    return dup
+l=[4,8,3,6,4,3,5,9]
+print('Duplicate values:',duplicate(l))
