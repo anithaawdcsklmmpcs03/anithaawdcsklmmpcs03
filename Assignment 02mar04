@@ -1,0 +1,18 @@
+n=int(input('enter n')) 
+l=[] 
+for i in range(n): 
+    x=int(input()) 
+    l.append(x) 
+print(l) 
+t=[] 
+for i in l: 
+    t.append(int(i)) 
+print(t) 
+y=[] 
+for i in t: 
+    if i not in y: 
+        y.append(i) 
+print(y) 
+y.sort(reverse=True) 
+print(y) 
+print(y[1]) 
