@@ -1,0 +1,5 @@
+ #combine of two strings
+s1="aditya" 
+s2="degree college"
+s3 = s1 + s2  
+print(s3)
