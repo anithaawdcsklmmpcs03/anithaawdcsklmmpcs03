@@ -1,0 +1,14 @@
+(, x=input('enter names:')
+u=0
+l=0
+d=0
+a=0
+for i in x:
+     if(i.islower()):
+         l=l+l
+     elif(i.isupper()):
+         u=u+l
+     elif(i.isdigit()):
+         d=d+1
+     else:
+         a=a+1
